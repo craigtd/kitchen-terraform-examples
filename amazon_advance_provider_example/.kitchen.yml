@@ -1,7 +1,7 @@
 ---
 driver:
   name: terraform
-  root_module_directory: test/fixtures/us_east_1
+  root_module_directory: test/fixtures/eu-west-2
   parallelism: 4
 
 provisioner:

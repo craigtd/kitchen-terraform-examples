@@ -9,11 +9,11 @@ variable "public_key_material" {
 
 
 module "example" {
-  instances_ami            = "ami-1d4e7a66"
+  instances_ami            = "ami-03998867"
   key_pair_public_key      = "${var.public_key_material}"
-  provider_region          = "us-east-1"
+  provider_region          = "eu-west-2"
   source                   = "../../../"
-  subnet_availability_zone = "us-east-1b"
+  subnet_availability_zone = "eu-west-2b"
 }
 
 output "reachable_other_host_public_ip" {
