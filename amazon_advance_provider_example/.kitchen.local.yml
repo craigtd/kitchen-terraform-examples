@@ -1,0 +1,7 @@
+---
+driver:
+  variables:
+    key_pair_public_key: "<%= ::File.read '/path/to/public/key' %>"
+transport:
+  ssh_key: "/path/to/private/key"
+
