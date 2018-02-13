@@ -1,7 +1,7 @@
 ---
 driver:
   variables:
-    key_pair_public_key: "<%= ::File.read '/path/to/public/key' %>"
+    public_key_material: "<%= ::File.read ENV['HOME']+'/.ssh/id_rsa.pub' %>"
 transport:
-  ssh_key: "/path/to/private/key"
+  ssh_key: "~/.ssh/id_rsa"
 
