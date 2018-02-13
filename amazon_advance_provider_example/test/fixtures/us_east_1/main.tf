@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 0.10.2"
+  required_version = "~> 0.11.2"
 }
 
 variable "public_key_material" {
